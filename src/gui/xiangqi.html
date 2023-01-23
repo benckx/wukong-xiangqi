@@ -197,7 +197,11 @@
         } else if (window.devtools.isOpen == 1) {
           document.body.style.backgroundImage = 'url(game/images/misc/wallpaper.jpg)';
         }
-      });	    
+      });
+
+      window.onload = function () {
+        setPieceTheme('romanized_pieces');
+      }
     </script>
   </body>
 <html>
